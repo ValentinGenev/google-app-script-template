@@ -1,0 +1,6 @@
+node_modules/
+
+# Google App Script
+#   src/appsscript.json is pulled on the initial pull
+.clasp.json
+src/appsscript.json

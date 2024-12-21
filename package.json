@@ -1,21 +1,13 @@
 {
-  "name": "dentist-outpatient-card",
-  "version": "1.0.0",
+  "name": "google-app-scripts-template",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "parse": "node scripts/parse.js",
-    "build": "node scripts/build.js"
+    "dev:watch": "clasp push --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ValentinGenev/dentinst-outpatient-card.git"
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.86",
+    "typescript": "^5.7.2"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ValentinGenev/dentinst-outpatient-card/issues"
-  },
-  "homepage": "https://github.com/ValentinGenev/dentinst-outpatient-card#readme"
+  "version": "1.0.0"
 }
